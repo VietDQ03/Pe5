@@ -15,7 +15,7 @@
     ],
     "employees": [
       {
-       " id": 1,
+       "id": 1,
         "name": "Tran Bao Han",
         "dob": "1980-09-12",
         "gender": "Female",
