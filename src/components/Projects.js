@@ -108,7 +108,7 @@ const Projects = () => {
                       {project.findDepartments.name}
                     </td>
                     <td
-                      onClick={() => navigate(`/project/${project.id}`)}
+                      onClick={() => navigate(`/projects/edit/${project.id}`)}
                       style={{
                         color: "blue",
                         textDecoration: "underline",

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Employees from './components/Employees';
+import Edit from './components/Edit';
 
 const router = createBrowserRouter([
   {
@@ -13,10 +14,10 @@ const router = createBrowserRouter([
     path: "departments/:id?/employees",
     element: <Employees />,
   },
-  // {
-  //   path: "cart",
-  //   element: <Cart />,
-  // },
+  {
+    path: "projects/edit/:id?",
+    element: <Edit />,
+  },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
